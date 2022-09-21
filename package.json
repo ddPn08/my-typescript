@@ -2,9 +2,9 @@
   "name": "my-typescript",
   "type": "module",
   "scripts": {
-    "lint": "eslint workers/*/src/**/*.{ts,tsx}",
-    "stylelint": "stylelint workers/*/src/**/*.{ts,tsx}",
-    "format": "prettier --write workers/*/src/**/*.{ts,tsx}"
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "stylelint": "stylelint src/**/*.{ts,tsx}",
+    "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.7",
